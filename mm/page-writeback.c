@@ -1697,7 +1697,7 @@ static void dirty_writeback_late_resume(struct early_suspend *handler)
 /*
  * Struct for the dirty page writeback management during suspend/resume
  */
-+static struct early_suspend dirty_writeback_suspend = {
+static struct early_suspend dirty_writeback_suspend = {
   .suspend = dirty_writeback_early_suspend,
   .resume = dirty_writeback_late_resume,
 };
