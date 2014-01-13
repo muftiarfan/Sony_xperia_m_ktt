@@ -975,8 +975,6 @@ config CRYPTO_LZO
 	help
 	  This is the LZO algorithm.
 
-comment "Random Number Generation"
-
 config CRYPTO_ANSI_CPRNG
 	tristate "Pseudo Random Number Generation for Cryptographic modules"
 	default m
